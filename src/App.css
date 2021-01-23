@@ -1,0 +1,26 @@
+.App {
+  font-size: 35px;
+  /* background-color: rgb(252, 252, 69); */
+  background: linear-gradient(to right, #3aeefa, transparent),
+    url("./bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 10%;
+  padding-left: 10%;
+  height: 100vh;
+  margin: 0;
+}
+
+.App-title {
+  font-size: 50px;
+}
+
+.Clock-days,
+.Clock-hours,
+.Clock-minutes,
+.Clock-seconds {
+  /* display: inline; */
+  margin: 10px;
+}
